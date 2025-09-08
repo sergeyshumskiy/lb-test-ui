@@ -1,0 +1,38 @@
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  margin: 0 auto;
+}
+
+.payment-form-submit,
+.payment-form select,
+.payment-form input {
+  box-sizing: border-box;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.625rem;
+  border: 1px solid #2e3a52;
+}
+
+.payment-form input,
+.payment-form select {
+  width: 100%;
+}
+
+.payment-form-submit {
+  margin-top: 1.25rem;
+  width: 3.125rem;
+  background: #7bdcb2;
+  margin-left: auto;
+}
+
+.payment-form label {
+  margin-top: 0.625rem;
+  margin-bottom: 0.25rem;
+}
+
+.payment-validation-error {
+  color: #ea0606;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}

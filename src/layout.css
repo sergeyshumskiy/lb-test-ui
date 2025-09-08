@@ -1,0 +1,9 @@
+.layout {
+  min-height: 100vh;
+  margin: auto;
+  padding-top: 3rem;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  color: #2e3a52;
+}

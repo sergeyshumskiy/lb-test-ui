@@ -1,0 +1,21 @@
+# build
+dist
+# Dependency directory
+node_modules
+
+# Environment variables
+.env
+
+# Editors
+.idea/
+.vscode
+.tern-project
+*.iml
+.eslintcache
+
+# Text coverage
+coverage
+.nyc_output
+
+.DS_Store
+.eslintcache
