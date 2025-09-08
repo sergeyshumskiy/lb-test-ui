@@ -3,14 +3,13 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router';
 
 import './main.css'
-import { Spinner } from './components';
 
 const AppRoutes = lazy(() => import('./app-routes'));
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Suspense fallback={<Spinner />}>
+      <Suspense fallback={<div>Loading...</div>}>
         <AppRoutes />
        </Suspense>
     </BrowserRouter>

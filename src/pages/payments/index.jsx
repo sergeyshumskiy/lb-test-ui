@@ -92,7 +92,7 @@ function Payments() {
         <Form className='payment-form'>
           <h1>Payment Form</h1>
           <label htmlFor='price'>Price</label>
-          <Field type='number' name='price' id='price' autoFocus placeholder='price' disabled={disabled} />
+          <Field type='number' name='price' id='price' autoFocus placeholder='Price' disabled={disabled} />
           <ErrorMessage component='span' className='payment-validation-error' name='price' />
           <label htmlFor='currency'>Currency</label>
           <Field as="select" name="currency" id="currency" disabled={disabled}>
